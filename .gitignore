@@ -1,4 +1,4 @@
 # the ignore file identifies the patterns for the files/folders that you do not want to track in your
 # git repository
 
-.zip
+*.zip
