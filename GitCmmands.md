@@ -2,6 +2,8 @@
 
 We can use the git version control application from the command line. Here aer some useful commands to get started.
 
+-`git init` - this command will create a git repository in the current folderdir
+
 - `git status` - this will give you the current status of your git repository
 - `git add .` - Us ethis command to "stage" all of your current changes so that they are ready to be committed
 - `git commit -m "your msg"` - this command will take all of the staged changes and create a snapshot of the current state of your repository. Using commits is how we generate a "commit history" for our repository
