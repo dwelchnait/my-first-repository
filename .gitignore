@@ -2,3 +2,8 @@
 # git repository
 
 *.zip
+
+#ignore these folders
+
+bin/
+obj/
