@@ -32,12 +32,15 @@ use to create repo on github.com. will create the origin (github.com) repo base 
 
 `gh auth login` can be used to log into github.com if you need to
 
-`git push -u origin master` first time you push to name the branch: master, on github (origin). th -u is the local branch (check out lower left corner of your blue status line). 
+`git push -u origin master` **first time you push to name the branch**: master, on github (origin). the -u is the local branch (check out lower left corner of your blue status line). -u long version is --set upstream
 
 If you get an error: fatal ..not repository..., check that you are actually in your repository on your machine. Actually get into your repository: use File/Open folder, browse to the folder and select. Then connect your local repository to the newly created repository on github.com (created eariler with gh repo create command).
 
 `git remote add origin https://github.com/xxxx/my-first-repository` where xxx is your username (dwelchnait).
 
+problems with origin connection for your local repository
+
+try `git remote remove origin` then check with `git remote -v` then re-add using `git remote add origin https://github.com/xxxxx/my-first-repository.git`
 
 
 
